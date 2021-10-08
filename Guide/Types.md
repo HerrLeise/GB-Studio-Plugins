@@ -3,7 +3,7 @@ Plugins can have various field types for definition. Below you will find a list 
 
 Documented Types:
 `text`,`textarea`,`number`,`variable`,`checkbox`,`select`
-`sprite`,`actor`,`collapsable`,`checkbox`,`select`
+`sprite`,`actor`,`collapsable`,`xxx`,`xxx`
 
 ## Generic Types
 `text`,`number`,`variable`,`checkbox`,`select`,`collapsable`
@@ -23,7 +23,7 @@ Documented Types:
 ### Select
 With the `select` type you can define a list of options to choose from, in the event definition UI.
 
-```
+```js
   .
   .
   .
@@ -42,5 +42,8 @@ With the `select` type you can define a list of options to choose from, in the e
 `union`,`direction`,`xxx`,`xxx`,`xxx`,`xxx`
 
 ## Scene & Actor Types
-`actor`,`sprite`,`xxx`,`xxx`,`xxx`,`xxx`
+`scene`,`actor`,`sprite`,`xxx`,`xxx`,`xxx`,`xxx`
+
+### Scene
+Scene describes a registred value (like `LAST_SCENE`), or a variable holding a reference to a selected scene.
 
