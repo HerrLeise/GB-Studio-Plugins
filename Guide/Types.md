@@ -16,12 +16,12 @@
   .
   .
   .
-  type: "select",
-		options: [
-			["right", "Right"],
-			["left", "Left"]
-		],
-		defaultValue: "right",
+  	type: "select",
+	options: [
+		["right", "Right"],
+		["left", "Left"]
+	],
+	defaultValue: "right",
     .
     .
     .
