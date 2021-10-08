@@ -1,10 +1,10 @@
 # Plugin Types
 Documented Types:
-`text`,`number`,`variable`,`checkbox`,`select`
-`sprite`,`actor`,`variable`,`checkbox`,`select`
+`text`,`textarea`,`number`,`variable`,`checkbox`,`select`
+`sprite`,`actor`,`collapsable`,`checkbox`,`select`
 
 ## Generic Types
-`text`,`number`,`variable`,`checkbox`,`select`
+`text`,`number`,`variable`,`checkbox`,`select`,`collapsable`
 
 ### Text
 
@@ -35,3 +35,10 @@ With the `select` type you can define a list of options to choose from, in the e
     .
     .
 ```
+
+## Specific Types
+`union`,`direction`,`xxx`,`xxx`,`xxx`,`xxx`
+
+## Scene & Actor Types
+`actor`,`sprite`,`xxx`,`xxx`,`xxx`,`xxx`
+
