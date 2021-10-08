@@ -57,7 +57,7 @@ updateFn: (string, field, args) => {
 
 **Example:**
 ```js
-    postUpdate: (args) => {
+postUpdate: (args) => {
       const maxPerLine = args.avatarId ? 16 : 18;
       const maxTotal = args.avatarId ? 48 : 52;
       return {
