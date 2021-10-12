@@ -86,7 +86,7 @@ We'll create an Event Plugin that sets two given variables to a given value. We'
 
     There's many other types of fields (like `actor` or `scene`) and parameters that can be used to customize fields (like `label` or `width`). The best way to learn about those is too look at existing Events in [`src/lib/events/`](https://github.com/chrismaltby/gb-studio/tree/v2beta/src/lib/events) and look for the fields they use.
 
-  - `compile` is a function that is called when the game is built by using the `Run` or `Export` command. The function calls Script Builder functions that build the list of Commands used by the game. 
+  - `compile` is a function that is called when the game is built by using the `Run` or `Export` command. The function calls Script Builder functions that build the list of Commands used by the game. Don't think about the compile function as if you're going to execute javascript code in the game at runtime. What you're doing is using javascript to generate a script that will be run at runtime by calling the functions from helpers object, anything that it's not a call to those functions won't have any effect on the game at runtime.
   
     Script Builder functions are a set of Javascript functions that serve as bridge between the UI Events and the game code. Without getting into much details each of this functions adds values to an output array that is later used to build the script that defines the game logic.
 
