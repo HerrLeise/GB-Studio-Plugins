@@ -47,3 +47,16 @@ With the `select` type you can define a list of options to choose from, in the e
 ### Scene
 Scene describes a registred value (like `LAST_SCENE`), or a variable holding a reference to a selected scene.
 
+### Sprite
+The Sprite type can only be used once in a custom plugin event. And the key should always be: `spriteSheetId`, due to the fact that sprite precompilation is done by field key name, rather than field types.
+
+**Example: ** _For getting a specific sprite with exact 9 frames from the reosurce browser in UI_
+```js
+	{
+		key: "spriteSheetId",
+		type: "sprite",
+		label: "Dialog Sprite (9 Frames)",
+		filter: sprite => sprite.numFrames === 9,
+		optional: false,
+	}
+```
