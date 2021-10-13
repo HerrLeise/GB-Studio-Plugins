@@ -2,6 +2,10 @@
 
 With Enhanced Visual Dialogues you can use a 9-Frame Sprite to fill 9 actors in a 3x3 array to show a person or thing that communicates.
 
+**Features:**
+- Single Event for Dialogues with Character on Screen, to display emotions and others
+- reduced the amount of single events from at least 27 to 1 for each character with on screen dialogue
+
 ![HLEVD Scenes](https://github.com/HerrLeise/GB-Studio-Plugins/blob/d78f96b76ab2ad44477fd3cce3474a2d5315f754/Guide/res/HLEVD_Scenes.png)
 
 **Requirements**
@@ -31,6 +35,6 @@ And slice it into 9 frames, where 3 frames represent a row of to be assigned act
 **Build, run, tested on GB-Studio 2.0b5**
 
 **Limitations**
-You cannot display 2 Dialogue Actors at the same time, due to Frame and Actor restrictions in GB-Studio 2.0b5
+You cannot display 2 Dialogue Actors on a Screen, due to Frame and Actor restrictions in GB-Studio 2.0b5
 
 
