@@ -283,21 +283,21 @@ const compile = (input, helpers) => {
 	
 	
 	
-	if (Array.isArray(input.text)) {
+	if (Array.isArray(text)) {
 		// Handle multiple blocks of text
-		for (let j = 0; j < input.text.length; j++) {
-			const rowText = input.text[j];
+		for (let j = 0; j < text.length; j++) {
+			const rowText = text[j];
 			
 			// Before first box, make close instant
 			if (j === 0) {
 				textSetCloseInstant();
 			}
 			// Before last box, restore close speed
-			if (j === input.text.length - 1) {
+			if (j === text.length - 1) {
 				textRestoreCloseSpeed();
 			}
 			
-			textDialogue(rowText || " ", input.avatarId);
+			textDialogue(rowText || " ", avatarId);
 			
 			// After first box, make open instant
 			if (j === 0) {
@@ -309,7 +309,7 @@ const compile = (input, helpers) => {
 			}
 		}
 	} else {
-		textDialogue(input.text || " ", input.avatarId);
+		textDialogue(text || " ", avatarId);
 	}
 };
 
