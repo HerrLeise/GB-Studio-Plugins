@@ -130,12 +130,22 @@
             "tileColors": [],
             "script": [
                 {
+                    "id": "2ed5aff0-e576-4875-b29e-6d8e20b5e13d",
+                    "command": "EVENT_HL_DIALOGUE_ENHANCED",
+                    "args": {
+                        "text": [
+                            "I'm the standalone release, of a Dialog Block that shows off Text, without the length limitation."
+                        ],
+                        "avatarId": ""
+                    }
+                },
+                {
                     "id": "23bd8071-22a3-439e-bfc6-9720f420a1ba",
                     "command": "EVENT_HL_ACTOR_DIALOGUE_ENHANCED",
                     "args": {
                         "dialogueOrientation": "left",
                         "text": [
-                            "Welcome to the enhanced visual dialogue system!\nWelcome to the enhanced visual dialogue system!",
+                            "Hello, I'm a dialogue text block, that will exceed the maximum allowed length by far. So we are going to split this paragraph into the necessary amount of text blocks to display all text. \nIn addition we keep word boundaries and will not cut words in halfes.\nAlso, we need to ensure, that we don't have leading or trailing whitespaces, and unnecessary new lines in between.",
                             "Would you like to see the Guides on how to arrange",
                             "actors on a scene and how to divide the background?"
                         ],
@@ -149,7 +159,8 @@
                         "dialogueActor_SEVEN": "bd1c50b2-1685-4c30-8e81-a7bcae52283a",
                         "dialogueActor_EIGHT": "bb27955c-f92e-446f-89b9-2173599a9f48",
                         "dialogueActor_NINE": "5003d896-2e8c-466a-8c84-d59b0e99a1dd",
-                        "spriteSheetId": "bb051563-0c45-4d53-ba84-a5f59612340e"
+                        "spriteSheetId": "bb051563-0c45-4d53-ba84-a5f59612340e",
+                        "__collapse": true
                     }
                 },
                 {
@@ -158,7 +169,8 @@
                     "args": {
                         "variable": "L0",
                         "trueText": "Yes, show me!",
-                        "falseText": "No, not yet."
+                        "falseText": "No, not yet.",
+                        "__collapse": true
                     }
                 },
                 {
@@ -167,7 +179,7 @@
                     "args": {
                         "variable": "L0",
                         "__collapseElse": false,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -726,7 +738,7 @@
             "imageHeight": 144,
             "filename": "Detective_Calvin_StartScreen_X1.png",
             "inode": "16404692",
-            "_v": 1634221026969
+            "_v": 1634383305078
         },
         {
             "id": "779f471e-3e3a-46fe-92fc-01188d7e7e1d",
@@ -737,7 +749,7 @@
             "imageHeight": 144,
             "filename": "HL_Dialogue_Fuji_Temple.png",
             "inode": "16404607",
-            "_v": 1634221026969
+            "_v": 1634383305078
         },
         {
             "id": "88ca9c95-7308-46d0-8015-0c3f8a8a1f10",
@@ -748,7 +760,7 @@
             "imageHeight": 144,
             "filename": "HL_Dialogue_Fuji_Temple_B.png",
             "inode": "16404606",
-            "_v": 1634221026969
+            "_v": 1634383305077
         },
         {
             "id": "983ee49b-bb4f-40b5-ad51-ba63c5c3012b",
@@ -759,7 +771,7 @@
             "imageHeight": 144,
             "filename": "HL_Dialogue_Guides.png",
             "inode": "16404605",
-            "_v": 1634221026969
+            "_v": 1634383305077
         }
     ],
     "spriteSheets": [
@@ -770,7 +782,7 @@
             "type": "static",
             "filename": "Empty_Actor_ForTrigger.png",
             "inode": "16404639",
-            "_v": 1634221026969
+            "_v": 1634383305078
         },
         {
             "id": "bb051563-0c45-4d53-ba84-a5f59612340e",
@@ -779,7 +791,7 @@
             "type": "animated",
             "filename": "V2_calvin_Dialog_Girl_Sprite.png",
             "inode": "16404644",
-            "_v": 1634221026969
+            "_v": 1634383305078
         },
         {
             "id": "1e901180-6bd4-44f1-bb62-19c0f99ebaeb",
@@ -788,7 +800,7 @@
             "type": "animated",
             "filename": "V2_calvin_Dialog_Sprite_Mirrowed_Master_9slice_wide.png",
             "inode": "16404645",
-            "_v": 1634221026969
+            "_v": 1634383305078
         },
         {
             "id": "b8e763be-a0a1-48c5-993c-640271785a2e",
@@ -797,7 +809,7 @@
             "type": "animated",
             "filename": "calvin_Dialog_Sprite_Mirrowed_Master_9slice_wide.png",
             "inode": "16406508",
-            "_v": 1634221026969
+            "_v": 1634383305078
         }
     ],
     "palettes": [
@@ -1076,7 +1088,7 @@
             "filename": "Rulz_BattleTheme.mod",
             "settings": {},
             "inode": "16404442",
-            "_v": 1634221026958
+            "_v": 1634383305074
         },
         {
             "id": "4653812c-82b6-44ce-93b8-eea1d4b6fa71",
@@ -1084,7 +1096,7 @@
             "filename": "Rulz_FastPaceSpeedRace.mod",
             "settings": {},
             "inode": "16404444",
-            "_v": 1634221026958
+            "_v": 1634383305075
         },
         {
             "id": "e571be0d-bbaa-44ae-a411-c2b2e6c5ff24",
@@ -1092,7 +1104,7 @@
             "filename": "Rulz_GonaSpace.mod",
             "settings": {},
             "inode": "16404446",
-            "_v": 1634221026958
+            "_v": 1634383305075
         },
         {
             "id": "2e3e140a-ae8d-4970-8e8b-37b2119c7208",
@@ -1100,7 +1112,7 @@
             "filename": "Rulz_Into the woods.mod",
             "settings": {},
             "inode": "16404448",
-            "_v": 1634221026958
+            "_v": 1634383305075
         },
         {
             "id": "83b79b0b-6af5-4a01-ac40-2f86fd36ece8",
@@ -1108,7 +1120,7 @@
             "filename": "Rulz_Intro.mod",
             "settings": {},
             "inode": "16404450",
-            "_v": 1634221026958
+            "_v": 1634383305075
         },
         {
             "id": "0f78c331-7318-48ca-8a6c-a57c15ef423a",
@@ -1116,7 +1128,7 @@
             "filename": "Rulz_LightMood.mod",
             "settings": {},
             "inode": "16404452",
-            "_v": 1634221026958
+            "_v": 1634383305075
         },
         {
             "id": "180f6b13-2ccc-4af9-8ebf-3e3931f2e824",
@@ -1124,7 +1136,7 @@
             "filename": "Rulz_Outside.mod",
             "settings": {},
             "inode": "16404454",
-            "_v": 1634221026958
+            "_v": 1634383305075
         },
         {
             "id": "a98fc4b6-810e-4fb7-93ee-ef17be6ce95a",
@@ -1132,7 +1144,7 @@
             "filename": "Rulz_Pause_Underground.mod",
             "settings": {},
             "inode": "16404456",
-            "_v": 1634221026958
+            "_v": 1634383305075
         },
         {
             "id": "be5e3dd0-dc4f-46b3-aefe-9897de0775c3",
@@ -1140,7 +1152,7 @@
             "filename": "Rulz_SpaceEmergency.mod",
             "settings": {},
             "inode": "16404458",
-            "_v": 1634221026958
+            "_v": 1634383305075
         },
         {
             "id": "4f7446cc-f5b4-4749-8fd0-f587afe35747",
@@ -1148,7 +1160,7 @@
             "filename": "Rulz_UndergroundCave.mod",
             "settings": {},
             "inode": "16404460",
-            "_v": 1634221026958
+            "_v": 1634383305075
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
@@ -1156,7 +1168,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "16404462",
-            "_v": 1634221026958
+            "_v": 1634383305075
         }
     ],
     "variables": [
@@ -1286,7 +1298,7 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            913,
+            854,
             30,
             30
         ],

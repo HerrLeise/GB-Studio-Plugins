@@ -149,7 +149,18 @@
                         "dialogueActor_SEVEN": "bd1c50b2-1685-4c30-8e81-a7bcae52283a",
                         "dialogueActor_EIGHT": "bb27955c-f92e-446f-89b9-2173599a9f48",
                         "dialogueActor_NINE": "5003d896-2e8c-466a-8c84-d59b0e99a1dd",
-                        "spriteSheetId": "bb051563-0c45-4d53-ba84-a5f59612340e"
+                        "spriteSheetId": "bb051563-0c45-4d53-ba84-a5f59612340e",
+                        "__collapse": true
+                    }
+                },
+                {
+                    "id": "2ed5aff0-e576-4875-b29e-6d8e20b5e13d",
+                    "command": "EVENT_HL_DIALOGUE_ENHANCED",
+                    "args": {
+                        "text": [
+                            "I'm the standalone release, of a Dialog Block that shows off Text, without the length limitation."
+                        ],
+                        "avatarId": ""
                     }
                 },
                 {
@@ -158,7 +169,8 @@
                     "args": {
                         "variable": "L0",
                         "trueText": "Yes, show me!",
-                        "falseText": "No, not yet."
+                        "falseText": "No, not yet.",
+                        "__collapse": true
                     }
                 },
                 {
@@ -167,7 +179,7 @@
                     "args": {
                         "variable": "L0",
                         "__collapseElse": false,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -1286,7 +1298,7 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            700,
+            854,
             30,
             30
         ],
