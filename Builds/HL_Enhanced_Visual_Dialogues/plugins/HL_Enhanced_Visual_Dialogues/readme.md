@@ -9,7 +9,7 @@ With Enhanced Visual Dialogues you can use a 9-Frame Sprite to fill 9 actors in 
 
 ![HLEVD Scenes](https://github.com/HerrLeise/GB-Studio-Plugins/blob/d78f96b76ab2ad44477fd3cce3474a2d5315f754/Guide/res/HLEVD_Scenes.png)
 
-![HLEVD Dialog Text Block AUtomation](https://github.com/HerrLeise/GB-Studio-Plugins/blob/1d4030b45f19b54e8f9fed3461194f7f7e28348c/Guide/res/HLEVD_Scenes_TextEditor.png)
+![HLEVD Dialog Text Block Automation](https://github.com/HerrLeise/GB-Studio-Plugins/blob/1d4030b45f19b54e8f9fed3461194f7f7e28348c/Guide/res/HLEVD_Scenes_TextEditor.png)
 
 
 **Requirements**
