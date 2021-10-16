@@ -135,7 +135,7 @@
                     "args": {
                         "dialogueOrientation": "left",
                         "text": [
-                            "Welcome to the enhanced visual dialogue system!",
+                            "Welcome to the enhanced visual dialogue system!\nWelcome to the enhanced visual dialogue system!",
                             "Would you like to see the Guides on how to arrange",
                             "actors on a scene and how to divide the background?"
                         ],
@@ -493,6 +493,16 @@
                     }
                 },
                 {
+                    "id": "6d2653ab-3c7a-444b-8610-4e365b9a5c95",
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "You can close the\ngame now."
+                        ],
+                        "avatarId": ""
+                    }
+                },
+                {
                     "id": "f49259ac-5a70-43ba-b588-9f8ed23bdf11",
                     "command": "EVENT_END"
                 }
@@ -716,7 +726,7 @@
             "imageHeight": 144,
             "filename": "Detective_Calvin_StartScreen_X1.png",
             "inode": "16404692",
-            "_v": 1634136646934
+            "_v": 1634221026969
         },
         {
             "id": "779f471e-3e3a-46fe-92fc-01188d7e7e1d",
@@ -727,7 +737,7 @@
             "imageHeight": 144,
             "filename": "HL_Dialogue_Fuji_Temple.png",
             "inode": "16404607",
-            "_v": 1634136646936
+            "_v": 1634221026969
         },
         {
             "id": "88ca9c95-7308-46d0-8015-0c3f8a8a1f10",
@@ -738,7 +748,7 @@
             "imageHeight": 144,
             "filename": "HL_Dialogue_Fuji_Temple_B.png",
             "inode": "16404606",
-            "_v": 1634136646936
+            "_v": 1634221026969
         },
         {
             "id": "983ee49b-bb4f-40b5-ad51-ba63c5c3012b",
@@ -749,7 +759,7 @@
             "imageHeight": 144,
             "filename": "HL_Dialogue_Guides.png",
             "inode": "16404605",
-            "_v": 1634136646936
+            "_v": 1634221026969
         }
     ],
     "spriteSheets": [
@@ -760,7 +770,7 @@
             "type": "static",
             "filename": "Empty_Actor_ForTrigger.png",
             "inode": "16404639",
-            "_v": 1634136646936
+            "_v": 1634221026969
         },
         {
             "id": "bb051563-0c45-4d53-ba84-a5f59612340e",
@@ -769,7 +779,7 @@
             "type": "animated",
             "filename": "V2_calvin_Dialog_Girl_Sprite.png",
             "inode": "16404644",
-            "_v": 1634136646936
+            "_v": 1634221026969
         },
         {
             "id": "1e901180-6bd4-44f1-bb62-19c0f99ebaeb",
@@ -778,7 +788,7 @@
             "type": "animated",
             "filename": "V2_calvin_Dialog_Sprite_Mirrowed_Master_9slice_wide.png",
             "inode": "16404645",
-            "_v": 1634136646936
+            "_v": 1634221026969
         },
         {
             "id": "b8e763be-a0a1-48c5-993c-640271785a2e",
@@ -787,7 +797,7 @@
             "type": "animated",
             "filename": "calvin_Dialog_Sprite_Mirrowed_Master_9slice_wide.png",
             "inode": "16406508",
-            "_v": 1634136646936
+            "_v": 1634221026969
         }
     ],
     "palettes": [
@@ -1066,7 +1076,7 @@
             "filename": "Rulz_BattleTheme.mod",
             "settings": {},
             "inode": "16404442",
-            "_v": 1634136646932
+            "_v": 1634221026958
         },
         {
             "id": "4653812c-82b6-44ce-93b8-eea1d4b6fa71",
@@ -1074,7 +1084,7 @@
             "filename": "Rulz_FastPaceSpeedRace.mod",
             "settings": {},
             "inode": "16404444",
-            "_v": 1634136646932
+            "_v": 1634221026958
         },
         {
             "id": "e571be0d-bbaa-44ae-a411-c2b2e6c5ff24",
@@ -1082,7 +1092,7 @@
             "filename": "Rulz_GonaSpace.mod",
             "settings": {},
             "inode": "16404446",
-            "_v": 1634136646932
+            "_v": 1634221026958
         },
         {
             "id": "2e3e140a-ae8d-4970-8e8b-37b2119c7208",
@@ -1090,7 +1100,7 @@
             "filename": "Rulz_Into the woods.mod",
             "settings": {},
             "inode": "16404448",
-            "_v": 1634136646932
+            "_v": 1634221026958
         },
         {
             "id": "83b79b0b-6af5-4a01-ac40-2f86fd36ece8",
@@ -1098,7 +1108,7 @@
             "filename": "Rulz_Intro.mod",
             "settings": {},
             "inode": "16404450",
-            "_v": 1634136646932
+            "_v": 1634221026958
         },
         {
             "id": "0f78c331-7318-48ca-8a6c-a57c15ef423a",
@@ -1106,7 +1116,7 @@
             "filename": "Rulz_LightMood.mod",
             "settings": {},
             "inode": "16404452",
-            "_v": 1634136646932
+            "_v": 1634221026958
         },
         {
             "id": "180f6b13-2ccc-4af9-8ebf-3e3931f2e824",
@@ -1114,7 +1124,7 @@
             "filename": "Rulz_Outside.mod",
             "settings": {},
             "inode": "16404454",
-            "_v": 1634136646932
+            "_v": 1634221026958
         },
         {
             "id": "a98fc4b6-810e-4fb7-93ee-ef17be6ce95a",
@@ -1122,7 +1132,7 @@
             "filename": "Rulz_Pause_Underground.mod",
             "settings": {},
             "inode": "16404456",
-            "_v": 1634136646932
+            "_v": 1634221026958
         },
         {
             "id": "be5e3dd0-dc4f-46b3-aefe-9897de0775c3",
@@ -1130,7 +1140,7 @@
             "filename": "Rulz_SpaceEmergency.mod",
             "settings": {},
             "inode": "16404458",
-            "_v": 1634136646932
+            "_v": 1634221026958
         },
         {
             "id": "4f7446cc-f5b4-4749-8fd0-f587afe35747",
@@ -1138,7 +1148,7 @@
             "filename": "Rulz_UndergroundCave.mod",
             "settings": {},
             "inode": "16404460",
-            "_v": 1634136646932
+            "_v": 1634221026958
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
@@ -1146,7 +1156,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "16404462",
-            "_v": 1634136646932
+            "_v": 1634221026958
         }
     ],
     "variables": [
@@ -1276,9 +1286,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            456,
-            205,
-            390
+            913,
+            30,
+            30
         ],
         "showNavigator": true,
         "customColorsWhite": "E8F8E0",
