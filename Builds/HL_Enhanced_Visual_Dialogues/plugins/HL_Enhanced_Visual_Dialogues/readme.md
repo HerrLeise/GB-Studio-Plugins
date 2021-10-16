@@ -5,8 +5,12 @@ With Enhanced Visual Dialogues you can use a 9-Frame Sprite to fill 9 actors in 
 **Features:**
 - Single Event for Dialogues with Character on Screen, to display emotions and others
 - reduced the amount of single events from at least 27 to 1 for each character with on screen dialogue
+- Don't worry about too long text dialogues
 
 ![HLEVD Scenes](https://github.com/HerrLeise/GB-Studio-Plugins/blob/d78f96b76ab2ad44477fd3cce3474a2d5315f754/Guide/res/HLEVD_Scenes.png)
+
+![HLEVD Dialog Text Block AUtomation](https://github.com/HerrLeise/GB-Studio-Plugins/blob/1d4030b45f19b54e8f9fed3461194f7f7e28348c/Guide/res/HLEVD_Scenes_TextEditor.png)
+
 
 **Requirements**
 
