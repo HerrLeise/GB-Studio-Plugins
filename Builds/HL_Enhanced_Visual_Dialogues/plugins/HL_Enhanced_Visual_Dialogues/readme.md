@@ -38,3 +38,19 @@ And slice it into 9 frames, where 3 frames represent a row of to be assigned act
 You cannot display 2 Dialogue Actors on a Screen, due to Frame and Actor restrictions in GB-Studio 2.0b5
 
 
+// --------------------------------------------------------------- //
+// ------------------------- CHANGELOG --------------------------- //
+// --------------------------------------------------------------- //
+/*
+
+
+[0.2] Dont worry about Text Blocks
+- Automatically checks your textblocks for overlength & then turns
+those into additional dynamic on compile added text blocks.
+You can now focus on what really matters: 
+		   writing your games story lines
+
+[0.1] Inital Release
+
+*/
+// --------------------------------------------------------------- //
