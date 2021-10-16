@@ -10,7 +10,7 @@ WORK IN PROGRESS
 - reduced the amount of single events from at least 27 to 1 for each character with on screen dialogue
 - Automatic generated Textblock for overlength dialogues
 
-**Download: ** Version 0.2 - https://github.com/HerrLeise/GB-Studio-Plugins/blob/cdc7cea475dd34d22a9570515170a84aa8db581f/Builds/HL_Enhanced_Visual_Dialogues/(DOWNLOAD)%20HL_Enhanced_Visual_Dialogues%20-%20V0002.zip
+**Download** Version 0.2 - https://github.com/HerrLeise/GB-Studio-Plugins/blob/cdc7cea475dd34d22a9570515170a84aa8db581f/Builds/HL_Enhanced_Visual_Dialogues/(DOWNLOAD)%20HL_Enhanced_Visual_Dialogues%20-%20V0002.zip
 
 Check out here: https://github.com/HerrLeise/GB-Studio-Plugins/tree/main/Builds/HL_Enhanced_Visual_Dialogues
 
