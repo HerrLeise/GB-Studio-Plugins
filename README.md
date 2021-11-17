@@ -2,6 +2,10 @@
 
 WORK IN PROGRESS
 
+## Guide to GBS Plugins
+Please read this guides if you want to create your own GBStudio Plugins or want to modify the here provided ones.
+Link: https://github.com/HerrLeise/GB-Studio-Plugins/tree/main/Guide
+
 
 ## Current Available Plugins
 
